@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
-import flower from "../assets/flower.gif";
 import coding from "../assets/coding.gif";
 import girlcoding from "../assets/girlcoding.gif";
 import enjae from "../assets/enjae.jpeg";
@@ -16,7 +15,7 @@ const Home = () => {
         <div className="noise" />
         <div className="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 my-5 container mx-auto xl:px-20">
           {/* ABOUT ME CARD */}
-          <div className="relative col-span-3 aspect-square md:aspect-auto md:row-span-2 bg-[#af72ff56] rounded-3xl overflow-hidden">
+          <div className="relative col-span-3 aspect-square md:aspect-auto md:row-span-2 bg-[#480f1b56] rounded-3xl overflow-hidden">
             <div className="h-full  absolute  p-4 md:p-8 flex flex-col justify-start  md:justify-end">
               <img
                 className="w-32 h-32 mb-4 rounded-full dark:bg-gray-500 aspect-square"
@@ -98,7 +97,7 @@ const Home = () => {
               <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
             </svg>
           </a>
-          {/* EMAIL BUTTON */}
+          {/* EMAIL BUTTON
           <a
             href="mailto:harshiltomar20@gmail.com"
             target="_blank"
@@ -132,12 +131,7 @@ const Home = () => {
               <path fill="none" d="M0 0h24v24H0z" />
               <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
             </svg>
-          </a>
-          {/* MYSELF PHOTO CARD
-          <img
-            src={Nandini}
-            className="rounded-3xl flex flex-col col-span-1 relative overflow-hidden aspect-square justify-center items-center"
-          /> */}
+          </a> */}
           {/* GITHUB BUTTON */}
           <a
             href="https://github.com/harshiltomar"
@@ -197,7 +191,7 @@ const Home = () => {
             </div>
           </a>
 
-          {/* TWITTER BUTTON */}
+          {/* TWITTER BUTTON
           <a
             href="https://twitter.com/Hartdrawss"
             target="_blank"
@@ -236,7 +230,7 @@ const Home = () => {
                 strokeLinejoin="round"
               />
             </svg>
-          </a>
+          </a> */}
 
           {/*PROJECT CARD*/}
           <Link
@@ -373,7 +367,7 @@ const Home = () => {
               />
             </svg>
           </a> */}
-          <div className="grid grid-cols-4 place-content-center place-items-center gap-3 md:gap-8 p-4 md:p-8 rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm text-lg md:text-xl lg:text-5xl text-center text-[#ffffffde]">
+          {/* <div className="grid grid-cols-4 place-content-center place-items-center gap-3 md:gap-8 p-4 md:p-8 rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm text-lg md:text-xl lg:text-5xl text-center text-[#ffffffde]">
             <img
               alt=""
               loading="lazy"
@@ -386,22 +380,9 @@ const Home = () => {
               srcSet={flower}
               src={flower}
             />
-          </div>
+          </div> */}
         </div>
       </div>
-      <footer className=" mt-auto bottom-0 z-50 flex flex-cols justify-center items-center text-white">
-        <div className="w-screen">
-          <hr class="my-6 border-gray-200 sm:mx-auto lg:my-4" />
-          <p class="flex justify-center text-sm text-white text-center my-4">
-            Designed and Coded by&nbsp;
-            <a href="https://enjae.netlify.app/" class="hover:underline">
-              {" "}
-              Harshil™
-            </a>
-            ✨
-          </p>
-        </div>
-      </footer>
     </div>
   );
 };

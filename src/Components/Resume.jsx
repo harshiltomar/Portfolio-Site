@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import "../App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Nandini from "../assets/Nandini Jaryal - enjae.jpeg";
+import Harshil from "../assets/Harshil.jpeg";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
@@ -29,7 +29,7 @@ const Resume = () => {
         <div className="md:w-1/3 p-2">
           <div className=" md:fixed">
             <div className="md:block ">
-              <img className="h-20 w-20 mx-auto rounded-lg " src={Nandini} />
+              <img className="h-20 w-20 mx-auto rounded-lg " src={Harshil} />
               <div className="mb-12 text-center mt-4 justify-center items-left mx-4 text-Inconsolata">
                 <h1 className="text-xl text-gray-700 font-bold text-Inconsolata">
                   Harshil Tomar
@@ -73,7 +73,7 @@ const Resume = () => {
                 New Delhi, Delhi
               </div>
               <a
-                href="https://www.linkedin.com/in/nandinijaryal/"
+                href="https://www.linkedin.com/in/harshiltomar/"
                 className="my-5  text-sm text-gray-600 flex"
               >
                 <div className="mr-2">
@@ -87,6 +87,22 @@ const Resume = () => {
                   </svg>
                 </div>
                 LinkedIn
+              </a>
+              <a
+                href="https://drive.google.com/file/d/18GAa47epaP5ehKytlNzG8OnvOszcLF1R/view?usp=sharing"
+                className="my-5  text-sm text-gray-600 flex"
+              >
+                <div className="mr-2">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/3934/3934118.png"
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                  >
+                    {/* <path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667	v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548	S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248	h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z" /> */}
+                  </img>
+                </div>
+                Resume Link
               </a>
             </div>
             <div className="mx-4 hidden md:block">
@@ -158,25 +174,21 @@ const Resume = () => {
                       style={{ color: "#666" }}
                     />
                     <small className="text-sm text-gray-600">
-                      Jan 2023 - Present
+                      Jan 2024 - Present
                     </small>
                   </div>
                   <div className="text-gray-500">
                     <small>
                       <ul className="list-disc">
+                        <li>Part of the Central Implementation Group</li>
                         <li>
-                          Part of the PM and Big data as a Service - Networking
-                          Team.
+                          Worked on iforms, custom hooks with helpdesk
+                          attachment and Troubleshoot module using Java and
+                          Restful Api Architecture
                         </li>
                         <li>
-                          Automated and optimised the log file analysis process
-                          for log files, working with python, putty did shell
-                          scripting, and employed Linux tools.
-                        </li>
-                        <li>
-                          Significantly reduced the model’s time complexity by
-                          60% and developed algorithms for error detection,
-                          archive extraction from scratch
+                          Successfully deployed programs, actively evaluated
+                          user feedback with Javascipt custom Validation
                         </li>
                       </ul>
                     </small>
@@ -326,8 +338,7 @@ const Resume = () => {
                   <div>
                     <i className="bx bx-buildings" style={{ color: "#666" }} />
                     <small className="text-base text-gray-700">
-                      Student Head, Ecell (Official Society of
-                      Enpterprenuership, MSIT'24).
+                      Recieved Letter of Recommendation from MSIT, IPU
                     </small>
                   </div>
                 </div>
@@ -337,38 +348,8 @@ const Resume = () => {
                   <div>
                     <i className="bx bx-buildings" style={{ color: "#666" }} />
                     <small className="text-base text-gray-700">
-                      Student Head, SARC (Student Alumni Relation Cell, NIT
-                      Jalandhar).
-                    </small>
-                  </div>
-                </div>
-              </li>
-              <li className="mb-2">
-                <div className="mt-1">
-                  <div>
-                    <i className="bx bx-buildings" style={{ color: "#666" }} />
-                    <small className="text-base text-gray-700">
-                      Head, Reverie (Official Fashion Society of NIT Jalandhar).
-                    </small>
-                  </div>
-                </div>
-              </li>
-              <li className="mb-2">
-                <div className="mt-1">
-                  <div>
-                    <i className="bx bx-buildings" style={{ color: "#666" }} />
-                    <small className="text-base text-gray-700">
-                      Student Co-ordinator, HackNITJ 2022, NIT Jalandhar.
-                    </small>
-                  </div>
-                </div>
-              </li>
-              <li className="mb-2">
-                <div className="mt-1">
-                  <div>
-                    <i className="bx bx-buildings" style={{ color: "#666" }} />
-                    <small className="text-base text-gray-700">
-                      Co-ordinator, TechNITi 2023, NIT Jalandhar.
+                      Awarded Outstanding Achievement Award for Contribution to
+                      Mark-ED
                     </small>
                   </div>
                 </div>
